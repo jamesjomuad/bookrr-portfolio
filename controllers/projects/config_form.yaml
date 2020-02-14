@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Project
+
+# Model Form Field configuration
+form: $/bookrr/portfolio/models/project/fields.yaml
+
+# Model Class name
+modelClass: Bookrr\Portfolio\Models\Project
+
+# Default redirect location
+defaultRedirect: bookrr/portfolio/projects
+
+# Create page
+create:
+    title: Create Project
+    redirect: bookrr/portfolio/projects/update/:id
+    redirectClose: bookrr/portfolio/projects
+
+# Update page
+update:
+    title: Edit Project
+    redirect: bookrr/portfolio/projects
+    redirectClose: bookrr/portfolio/projects
+
+# Preview page
+preview:
+    title: Preview Project

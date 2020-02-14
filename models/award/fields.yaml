@@ -1,0 +1,40 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    icons:
+        Details: icon-info
+        Images: icon-file-image-o
+    fields:
+        title:
+            label: Title
+            tab: Details
+            span: full
+        sub_title:
+            label: Sub Title
+            tab: Details
+            span: full
+        date:
+            label: Date
+            type: datepicker
+            mode: date
+            tab: Details
+        description:
+            label: Description
+            tab: Details
+            type: richeditor
+            size: huge
+
+        images:
+            label: 'Screenshots'
+            tab: Images
+            mode: image
+            imageWidth: '250'
+            imageHeight: '250'
+            useCaption: 1
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload

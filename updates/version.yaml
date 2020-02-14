@@ -1,0 +1,13 @@
+1.0.1: First version of portfolio
+1.0.2:
+  - Create projects table
+  - create_projects_table.php
+1.0.3:
+  - Create Tags table
+  - create_tags_table.php
+1.0.4:
+  - Create Tags Pivot table
+  - create_tag_pivot.php
+1.0.5:
+  - Create Awards table
+  - create_awards_table.php

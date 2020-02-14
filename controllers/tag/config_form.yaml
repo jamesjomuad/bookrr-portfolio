@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Tag
+
+# Model Form Field configuration
+form: $/bookrr/portfolio/models/tags/fields.yaml
+
+# Model Class name
+modelClass: Bookrr\Portfolio\Models\Tags
+
+# Default redirect location
+defaultRedirect: bookrr/portfolio/tag
+
+# Create page
+create:
+    title: Create Tag
+    redirect: bookrr/portfolio/tag/update/:id
+    redirectClose: bookrr/portfolio/tag
+
+# Update page
+update:
+    title: Edit Tag
+    redirect: bookrr/portfolio/tag
+    redirectClose: bookrr/portfolio/tag
+
+# Preview page
+preview:
+    title: Preview Tag

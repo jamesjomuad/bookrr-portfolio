@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Award
+
+# Model Form Field configuration
+form: $/bookrr/portfolio/models/award/fields.yaml
+
+# Model Class name
+modelClass: Bookrr\Portfolio\Models\Award
+
+# Default redirect location
+defaultRedirect: bookrr/portfolio/awards
+
+# Create page
+create:
+    title: Create Award
+    redirect: bookrr/portfolio/awards/update/:id
+    redirectClose: bookrr/portfolio/awards
+
+# Update page
+update:
+    title: Edit Award
+    redirect: bookrr/portfolio/awards
+    redirectClose: bookrr/portfolio/awards
+
+# Preview page
+preview:
+    title: Preview Award

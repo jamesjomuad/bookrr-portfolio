@@ -1,0 +1,39 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    icons:
+        Details: icon-info
+        Images: icon-file-image-o
+    fields:
+        name:
+            label: Name
+            tab: Details
+        url:
+            label: Project URL
+            tab: Details
+        description:
+            label: Description
+            tab: Details
+            type: richeditor
+            size: huge
+        tags:
+            label: Tags
+            type: taglist
+            mode: relation
+            span: auto
+            tab: Details
+
+        images:
+            label: 'Screenshots'
+            tab: Images
+            mode: image
+            imageWidth: '250'
+            imageHeight: '250'
+            useCaption: 1
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: full
+            type: fileupload

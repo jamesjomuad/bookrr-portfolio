@@ -1,0 +1,16 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: false
+    title:
+        label: Title
+        searchable: true
+    sub_title:
+        label: Sub Title
+        searchable: true
+    date:
+        label: Date

@@ -1,0 +1,18 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        type: text
+        span: auto
+    slug:
+        label: Slug
+        type: text
+        span: auto
+        dependsOn: name
+    description:
+        label: Description
+        type: textarea
+        span: full
